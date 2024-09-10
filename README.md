@@ -4,7 +4,9 @@
 
 ## Overview
 
-In this lab I will be .......
+In this Splunk SIEM Lab, I aim to show how I can leverage an open-source Intrusion Detection System (IDS) like **Snort** along with my existing real-time network monitoring software from **Splunk Enterprise Security**. By simulating network traffic and attacks using virtual machines, I generate logs through Snort, which are then forwarded over the network to Splunk using the Universal Forwarder. These logs are piped into Splunk, where I can visualize and analyze them, exposing potential security threats before they become active.
+
+Additionally, this lab highlights a scalable approach for myself or other learners working on SOC-related activities (like IDS/IPS configurations). Through this hands-on experience, I can better understand threat intelligence solutions using SIEM to define Network Intrusion Detection and Response capabilities. Overall, this lab allowed me to show my understanding of key security concepts like logging, data analysis, and visualization, while also offering real-time threat detection via Splunk’s powerful dashboards.
 
 
 ### Tools/Software  
@@ -14,7 +16,7 @@ For this project, I will be using the following tools/software:
 1. **Splunk ES**: I will be using this SIEM on Linode.
 2. **Windows 10 VM**: This will serve as one of my virtual machines (VM) within VirtualBox, running as an ISO image.
 3. **Ubuntu VM**: Another VM running within VirtualBox, also using an ISO image. Will also be my attacker system as well, where I'll be running a couple commands to emulate network intrusion, so the traffic will be logged.
-4. **Network Switch**: 
+4. **Network Switch**: Throughout this lab I'll be connected to my SOHO network router that has a switch integrated into it.
 5. **Snort**: Will be running on my Ubuntu VM. Will be collecting the logs here and utilizing them within Splunk
 
 ![1](https://imgur.com/NVfAS98.png)
