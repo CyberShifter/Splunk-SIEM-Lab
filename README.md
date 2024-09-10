@@ -1,4 +1,4 @@
-# Splunk-SIEM-Lab
+# Guardian of the Network: A Splunk & Snort Cyber Defense Lab
 
 ---
 
